@@ -1,14 +1,15 @@
-package main.service;
+package main.repository;
 
 import main.model.Message;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface IMessageService {
 
     void saveMessage(Message message);
 
-    Message getMessageById(int id);
+    Optional<Message> getMessageById(int id);
 
     List<Message> getLastMessages();
 

@@ -1,4 +1,4 @@
-package main.service;
+package main.db.queries;
 
 public class UserQueries {
     public static String SAVE_USER_QUERY = "INSERT INTO users (username, password, email) VALUES (?, ?, ?)";
