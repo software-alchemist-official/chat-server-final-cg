@@ -7,6 +7,7 @@ import java.util.logging.Logger;
 
 public class DBConnection implements IDBConnection {
 
+    //TODO: retirar o usar.
     private static final Logger LOG = Logger.getLogger(DBConnection.class.getName());
 
 

@@ -28,7 +28,7 @@ public class UserService implements IUserService {
     }
 
     @Override
-    public void saveUser(User user) {
+    public void saveUser(User user) throws DatabaseException{
 
         validateUser(user);
 
